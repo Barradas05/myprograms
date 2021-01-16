@@ -1,12 +1,19 @@
+Use "if" to specify a block of code to be executed, if a specified condition is true
+Use "else" to specify a block of code to be executed, if the same condition is false
+Use "else if" to specify a new condition to test, if the first condition is false
+
+
 If:
 Use the if statement to specify a block of C++ code to be executed if a condition is true.
 
 Syntax:
+
 if (condition) {                                             
   // block of code to be executed if the condition is true    
 } 
 -----------------------------------------------------------
 Example:
+
 int x = 20;
 int y = 18;
 if (x > y) {
@@ -18,6 +25,7 @@ Else:
 Use the else statement to specify a block of code to be executed if the condition is false.
 
 Sytax:
+
 if (condition) {
   // block of code to be executed if the condition is true
 } else {
@@ -25,6 +33,7 @@ if (condition) {
 }
 -----------------------------------------------------------
 Example:
+
 int time = 20;
 if (time < 18) {
   cout << "Good day.";
@@ -38,6 +47,7 @@ Else If:
 Use the else if statement to specify a new condition if the first condition is false.
 
 Syntax:
+
 if (condition1) {
   // block of code to be executed if condition1 is true
 } else if (condition2) {
@@ -47,6 +57,7 @@ if (condition1) {
 }
 -----------------------------------------------------------
 Example:
+
 int time = 22;
 if (time < 10) {
   cout << "Good morning.";
